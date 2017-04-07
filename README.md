@@ -1,7 +1,16 @@
 # test
 
-> first vue project
+> first vue-router project
+# 创建一个项目体验一下, 当然不要忘记安装vue-router
+1， 在src 目录下新建两个组件，home.vue 和 about.vue。
 
+2，在 App.vue中 定义\<router-link > 和 \</router-view>  。
+
+3，在 src目录下再新建一个router.js 定义router, 就是定义 路径到 组件的 映射。
+
+4，把路由注入到根实例中，启动路由。这里其实还有一种方法，就像store 注入到根实例中，我们可以在main.js中引入路由，注入到根实例中。
+
+5，这时点击页面上的home 和about 可以看到组件来回切换。我们想让页面一加载进来就显示home页面，这需要重定向，所谓重定向，其实就是重新给它指定一个方向,这用到了redirect 配置。刚进入页面的时候，它的路径是 '/', 所以重新定义到home 。
 ## Build Setup
 
 ``` bash
