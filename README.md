@@ -1,6 +1,6 @@
 # test
 
-> first vue project
+> first vue-router project
 # 创建一个项目体验一下, 当然不要忘记安装vue-router
 1， 在src 目录下新建两个组件，home.vue 和 about.vue。
 
